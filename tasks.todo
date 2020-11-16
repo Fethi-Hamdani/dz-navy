@@ -1,0 +1,43 @@
+a mobile app that mark hourly rates of an engine
+
+there will be at least 2 types of machines 
+
+✔ at the first page the user must be able to create a machine with a certain vidange mark @done (10/29/2020, 3:37:21 PM)
+and start adding records for that
+✔ the user can register today's record or also a past record by entering a csutom date @done (10/29/2020, 3:37:24 PM)
+☐ the user must be notified daily when there is less than 100 hours left daily (including the value under it)
+✘ calculate fuel consumed totally and since last vidange @cancelled (11/1/2020, 10:18:58 AM)
+✔ verify ship before adding it @done (10/29/2020, 3:37:41 PM)
+☐ add toasts to clearify the actions of the user
+Records page:
+ ✔ display the speed of the boat @done (10/27/2020, 2:39:01 PM)
+ ✔ name of the boat on top @done (10/27/2020, 2:40:02 PM)
+ ✔ all vidanges made throughout its life span @done (10/27/2020, 2:41:42 PM)
+ ✔ totall fuel consumed over time @done (10/27/2020, 2:43:59 PM)
+ ✔ fuel consumed @done (10/27/2020, 2:44:00 PM)
+ ☐ all app option availabe there
+ ✔ delete boat and its data @done (10/27/2020, 2:47:13 PM)
+ ✔ button to add new record @done (10/29/2020, 3:38:09 PM)
+ ✔ button to see all records of the ship @done (11/3/2020, 1:12:16 PM)
+ ✘ display records made today @cancelled (11/2/2020, 6:56:30 AM)
+ ☐ desing the whole thing
+ ☐ generate a CSV file containing the records (line per record)
+ ☐ add all_ontime_hours
+ ✔ test if the value added is suffcient and greater than zero before adding @done (11/3/2020, 1:12:27 PM)
+
+periodic calculation:
+✘ long press to mark start and end of the list @cancelled (11/3/2020, 1:12:31 PM)
+✔ single tap to select/deselect a day @done (11/3/2020, 1:12:33 PM)
+☐ double tap to open day's details
+☐ create a graph with 3+ the day and 3- the day 
+☐ update ship total hours on new record added
+☐ reset ship hours running on vidange made
+☐ double numbers are not inserted in the database
+☐ add totall hours on time
+☐ add bounce widget on all of it 
+
+
+index 0 
+00 - 01 - 02 - 03 
+index 1
+10 - 11 - 12 - 13 
